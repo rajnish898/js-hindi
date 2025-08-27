@@ -49,3 +49,34 @@ console.log(typeof myFunction);
 
 console.log(typeof NumArray );
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive),Heap(Non Permititve)
+
+let muYoutubeaname = "rajnishsinghdotcom"
+
+let anothername =  muYoutubeaname
+anothername  = "chaiaurcode"
+
+
+console.log(muYoutubeaname);
+console.log(anothername);
+
+let userone = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userone
+usertwo.email = "rajnishsingh@123.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
+
+
+
+
+
