@@ -9,7 +9,8 @@ console.log(`Hello my name is ${name} and my roll no is ${repocount}  `);//Strin
 
 const gamename = new String('rajnish-IT-com')
 
-
+//We  use differnt methods in string
+// to gaain extra knowledge of it go for inspect and also mdn Pages
 console.log(gamename[0]);
 console.log(gamename.length);
 
