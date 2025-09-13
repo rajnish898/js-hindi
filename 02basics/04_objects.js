@@ -50,6 +50,8 @@ const users = [
 
 // console.log(Object.keys(regularUser));
 
+// *****de structuring ****
+
 
 const course ={
     cousrename: "js in hindi",
@@ -59,9 +61,35 @@ const course ={
 
 // course.courseInstructor
 
-const {courseInstructor} = course
+const {courseInstructor: Instructor} = course
 
-console.log(courseInstructor);
+// console.log(courseInstructor);
+console.log(Instructor);
+
+
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "rajnish")
+
+
+  //API calling gives objects
+
+
+// {
+//     name: "rajnish",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// it also gives me array in api calling
+
+[
+
+    {},
+    {}
+]
+
 
 
 
